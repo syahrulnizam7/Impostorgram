@@ -50,7 +50,7 @@ export default function Header({
           : "bg-white/90 backdrop-blur-lg border-b border-gray-200"
       }`}
     >
-      <div className="container mx-auto px-4">
+      <div className=" mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <motion.div
@@ -72,7 +72,7 @@ export default function Header({
               alt="Impostorgram Logo"
               width={30}
               height={30}
-              className="mr-2"
+              className="mr-2 -ml-6"
             />
             <span className={righteous.className}>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
