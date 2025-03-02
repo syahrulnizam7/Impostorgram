@@ -107,170 +107,170 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                   className={`absolute top-0 left-0 w-2 h-full bg-gradient-to-b ${stepIconColors[0]}`}
                 ></div>
                 <div className="p-8">
-                  <div className="flex flex-col md:flex-row md:items-start gap-6">
-                    <div className="flex-shrink-0">
-                      <div
-                        className={`w-16 h-16 rounded-2xl flex items-center justify-center text-white font-bold relative overflow-hidden group-hover:scale-105 transition-transform duration-300`}
-                      >
+                  <div className="flex flex-col">
+                    <div className="flex md:items-start gap-6">
+                      <div className="flex-shrink-0">
                         <div
-                          className={`absolute inset-0 bg-gradient-to-br ${stepIconColors[0]}`}
-                        ></div>
-                        <div className="relative flex flex-col items-center">
-                          <span className="text-2xl">1</span>
+                          className={`w-16 h-16 rounded-2xl flex items-center justify-center text-white font-bold relative overflow-hidden group-hover:scale-105 transition-transform duration-300`}
+                        >
+                          <div
+                            className={`absolute inset-0 bg-gradient-to-br ${stepIconColors[0]}`}
+                          ></div>
+                          <div className="relative flex flex-col items-center">
+                            <span className="text-2xl">1</span>
+                          </div>
                         </div>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-2xl font-bold mb-4 flex items-center">
+                          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+                            Minta Data Instagram Anda
+                          </span>
+                        </h3>
                       </div>
                     </div>
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold mb-4 flex items-center">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-                          Minta Data Instagram Anda
-                        </span>
-                      </h3>
-                      <div
-                        className={`p-6 rounded-xl mb-6 transform transition-all duration-300 ${
-                          darkMode
-                            ? "bg-gray-900/60 hover:bg-gray-900/80 hover:shadow-md"
-                            : "bg-gray-50 hover:bg-white hover:shadow-md"
+                    <div
+                      className={`p-6 rounded-xl mb-6 md:ml-20 transform transition-all duration-300 ${
+                        darkMode
+                          ? "bg-gray-900/60 hover:bg-gray-900/80 hover:shadow-md"
+                          : "bg-gray-50 hover:bg-white hover:shadow-md"
+                      }`}
+                    >
+                      <ol
+                        className={`list-decimal list-inside space-y-3 ${
+                          darkMode ? "text-gray-300" : "text-gray-600"
                         }`}
                       >
-                        <ol
-                          className={`list-decimal list-inside space-y-3 ${
-                            darkMode ? "text-gray-300" : "text-gray-600"
-                          }`}
-                        >
-                          <li className="pb-2">
-                            Buka aplikasi Instagram di ponsel Anda
-                          </li>
-                          <li className="pb-2">
-                            Buka profil Anda dan ketuk menu hamburger (≡) di
-                            kanan atas
-                          </li>
-                          <li className="pb-2">
-                            Pilih <strong>Pusat Akun</strong>
-                            <div className="mt-2 justify-center flex">
-                              <Image
-                                src="/images/step3.jpg"
-                                alt="Pilih Pusat Akun"
-                                width={300}
-                                height={200}
-                                className="rounded-lg"
-                              />
-                            </div>
-                          </li>
+                        <li className="pb-2">
+                          Buka aplikasi Instagram di ponsel Anda
+                        </li>
+                        <li className="pb-2">
+                          Buka profil Anda dan ketuk menu hamburger (≡) di kanan
+                          atas
+                        </li>
+                        <li className="pb-2">
+                          Pilih <strong>Pusat Akun</strong>
+                          <div className="mt-2 justify-center flex">
+                            <Image
+                              src="/images/step3.jpg"
+                              alt="Pilih Pusat Akun"
+                              width={300}
+                              height={200}
+                              className="rounded-lg"
+                            />
+                          </div>
+                        </li>
 
-                          <li className="pb-2">
-                            Tap <strong>Informasi dan izin Anda</strong>
-                            <div className="mt-2 justify-center flex">
-                              <Image
-                                src="/images/step4.jpg"
-                                alt="Pilih Pusat Akun"
-                                width={300}
-                                height={200}
-                                className="rounded-lg"
-                              />
-                            </div>
-                          </li>
-                          <li className="pb-2">
-                            Pilih <strong>Unduh informasi Anda</strong>
-                            <div className="mt-2 justify-center flex">
-                              <Image
-                                src="/images/step5.jpg"
-                                alt="Pilih Pusat Akun"
-                                width={300}
-                                height={200}
-                                className="rounded-lg"
-                              />
-                            </div>
-                          </li>
-                          <li className="pb-2">
-                            Pilih{" "}
-                            <strong>
-                              Mengunduh atau mentransfer informasi
-                            </strong>
-                            <div className="mt-2 justify-center flex">
-                              <Image
-                                src="/images/step6.jpg"
-                                alt="Pilih Pusat Akun"
-                                width={300}
-                                height={200}
-                                className="rounded-lg"
-                              />
-                            </div>
-                          </li>
-                          <li className="pb-2">
-                            Centang akun anda dan pilih berikutnya{" "}
-                          </li>
-                          <li>
-                            Pilih <strong>Beberapa informasi Anda</strong> dan
-                            centang <strong>Pengikut dan mengikuti</strong>
-                            <div className="mt-2 justify-center items-center gap-2 flex flex-col ">
-                              <Image
-                                src="/images/step8-1.jpg"
-                                alt="Pilih Pusat Akun"
-                                width={300}
-                                height={200}
-                                className="rounded-lg"
-                              />
-                              <Image
-                                src="/images/step8-2.jpg"
-                                alt="Pilih Pusat Akun"
-                                width={300}
-                                height={200}
-                                className="rounded-lg"
-                              />
-                            </div>
-                          </li>
-                          <li>
-                            Pilih <strong>Unduh ke perangkat</strong>
-                            <div className="mt-2 justify-center flex">
-                              <Image
-                                src="/images/step9.jpg"
-                                alt="Pilih Pusat Akun"
-                                width={300}
-                                height={200}
-                                className="rounded-lg"
-                              />
-                            </div>
-                          </li>
-                          <li>
-                            Atur rentang tanggal ke{" "}
-                            <strong> Sepanjang waktu</strong>, dan format{" "}
-                            <strong>JSON</strong>
-                            <div className="mt-2 justify-center flex">
-                              <Image
-                                src="/images/step10.jpg"
-                                alt="Pilih Pusat Akun"
-                                width={300}
-                                height={200}
-                                className="rounded-lg"
-                              />
-                            </div>
-                          </li>
-                          <li>
-                            Dan terakhir tap <strong>Buat File</strong>
-                          </li>
-                        </ol>
-                      </div>
+                        <li className="pb-2">
+                          Tap <strong>Informasi dan izin Anda</strong>
+                          <div className="mt-2 justify-center flex">
+                            <Image
+                              src="/images/step4.jpg"
+                              alt="Pilih Pusat Akun"
+                              width={300}
+                              height={200}
+                              className="rounded-lg"
+                            />
+                          </div>
+                        </li>
+                        <li className="pb-2">
+                          Pilih <strong>Unduh informasi Anda</strong>
+                          <div className="mt-2 justify-center flex">
+                            <Image
+                              src="/images/step5.jpg"
+                              alt="Pilih Pusat Akun"
+                              width={300}
+                              height={200}
+                              className="rounded-lg"
+                            />
+                          </div>
+                        </li>
+                        <li className="pb-2">
+                          Pilih{" "}
+                          <strong>Mengunduh atau mentransfer informasi</strong>
+                          <div className="mt-2 justify-center flex">
+                            <Image
+                              src="/images/step6.jpg"
+                              alt="Pilih Pusat Akun"
+                              width={300}
+                              height={200}
+                              className="rounded-lg"
+                            />
+                          </div>
+                        </li>
+                        <li className="pb-2">
+                          Centang akun anda dan pilih berikutnya{" "}
+                        </li>
+                        <li>
+                          Pilih <strong>Beberapa informasi Anda</strong> dan
+                          centang <strong>Pengikut dan mengikuti</strong>
+                          <div className="mt-2 justify-center items-center gap-2 flex flex-col ">
+                            <Image
+                              src="/images/step8-1.jpg"
+                              alt="Pilih Pusat Akun"
+                              width={300}
+                              height={200}
+                              className="rounded-lg"
+                            />
+                            <Image
+                              src="/images/step8-2.jpg"
+                              alt="Pilih Pusat Akun"
+                              width={300}
+                              height={200}
+                              className="rounded-lg"
+                            />
+                          </div>
+                        </li>
+                        <li>
+                          Pilih <strong>Unduh ke perangkat</strong>
+                          <div className="mt-2 justify-center flex">
+                            <Image
+                              src="/images/step9.jpg"
+                              alt="Pilih Pusat Akun"
+                              width={300}
+                              height={200}
+                              className="rounded-lg"
+                            />
+                          </div>
+                        </li>
+                        <li>
+                          Atur rentang tanggal ke{" "}
+                          <strong> Sepanjang waktu</strong>, dan format{" "}
+                          <strong>JSON</strong>
+                          <div className="mt-2 justify-center flex">
+                            <Image
+                              src="/images/step10.jpg"
+                              alt="Pilih Pusat Akun"
+                              width={300}
+                              height={200}
+                              className="rounded-lg"
+                            />
+                          </div>
+                        </li>
+                        <li>
+                          Dan terakhir tap <strong>Buat File</strong>
+                        </li>
+                      </ol>
+                    </div>
+                    <div
+                      className={`flex md:ml-20 items-start gap-4 p-6 rounded-xl  transform transition-all duration-300 ${
+                        darkMode
+                          ? "bg-blue-900/30 border border-blue-800/40 hover:bg-blue-900/40 hover:border-blue-700/50"
+                          : "bg-blue-50 border border-blue-100 hover:bg-blue-100/80 hover:border-blue-200"
+                      }`}
+                    >
                       <div
-                        className={`flex items-start gap-4 p-6 rounded-xl transform transition-all duration-300 ${
-                          darkMode
-                            ? "bg-blue-900/30 border border-blue-800/40 hover:bg-blue-900/40 hover:border-blue-700/50"
-                            : "bg-blue-50 border border-blue-100 hover:bg-blue-100/80 hover:border-blue-200"
+                        className={`flex-shrink-0 p-3 rounded-full ${
+                          darkMode ? "bg-blue-900/60" : "bg-blue-100"
                         }`}
                       >
-                        <div
-                          className={`flex-shrink-0 p-3 rounded-full ${
-                            darkMode ? "bg-blue-900/60" : "bg-blue-100"
-                          }`}
-                        >
-                          <InfoIcon size={22} className="text-blue-500" />
-                        </div>
-                        <p className="text-base">
-                          Instagram akan memproses permintaan Anda dalam
-                          beberapa hari. Anda akan mendapatkan notifikasi dan
-                          email saat data siap untuk diunduh.
-                        </p>
+                        <InfoIcon size={22} className="text-blue-500" />
                       </div>
+                      <p className="text-base">
+                        Instagram akan memproses permintaan Anda dalam beberapa
+                        hari. Anda akan mendapatkan notifikasi dan email saat
+                        data siap untuk diunduh.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -290,74 +290,73 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                   className={`absolute top-0 left-0 w-2 h-full bg-gradient-to-b ${stepIconColors[1]}`}
                 ></div>
                 <div className="p-8">
-                  <div className="flex flex-col md:flex-row md:items-start gap-6">
-                    <div className="flex-shrink-0">
-                      <div
-                        className={`w-16 h-16 rounded-2xl flex items-center justify-center text-white font-bold relative overflow-hidden group-hover:scale-105 transition-transform duration-300`}
-                      >
+                  <div className="flex flex-col">
+                    <div className="flex md:items-start gap-6">
+                      <div className="flex-shrink-0">
                         <div
-                          className={`absolute inset-0 bg-gradient-to-br ${stepIconColors[1]}`}
-                        ></div>
-                        <div className="relative flex flex-col items-center">
-                          <span className="text-2xl">2</span>
+                          className={`w-16 h-16 rounded-2xl flex items-center justify-center text-white font-bold relative overflow-hidden group-hover:scale-105 transition-transform duration-300`}
+                        >
+                          <div
+                            className={`absolute inset-0 bg-gradient-to-br ${stepIconColors[1]}`}
+                          ></div>
+                          <div className="relative flex flex-col items-center">
+                            <span className="text-2xl">2</span>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold mb-4 flex items-center">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-orange-500">
-                          Unduh Data Anda
-                        </span>
-                      </h3>
-                      <div
-                        className={`p-6 rounded-xl mb-6 transform transition-all duration-300 ${
-                          darkMode
-                            ? "bg-gray-900/60 hover:bg-gray-900/80 hover:shadow-md"
-                            : "bg-gray-50 hover:bg-white hover:shadow-md"
-                        }`}
-                      >
-                        <ol
-                          className={`list-decimal list-inside space-y-3 ${
-                            darkMode ? "text-gray-300" : "text-gray-600"
-                          }`}
-                        >
-                          <li className="pb-2">
-                            Setelah menerima notifikasi, buka kembali menu{" "}
-                            <strong>Unduh informasi Anda</strong>
-                          </li>
-                          <li className="pb-2">
-                            Anda akan melihat file ZIP yang siap diunduh
-                          </li>
-                          <li className="pb-2">
-                            Klik tombol <strong>Unduh</strong>
-                          </li>
-                          <li>File akan tersimpan di perangkat Anda</li>
-                        </ol>
-                      </div>
-                      <div
-                        className={`flex items-start gap-4 p-6 rounded-xl transform transition-all duration-300 ${
-                          darkMode
-                            ? "bg-yellow-900/30 border border-yellow-800/40 hover:bg-yellow-900/40 hover:border-yellow-700/50"
-                            : "bg-yellow-50 border border-yellow-100 hover:bg-yellow-100/80 hover:border-yellow-200"
-                        }`}
-                      >
-                        <div
-                          className={`flex-shrink-0 p-3 rounded-full ${
-                            darkMode ? "bg-yellow-900/60" : "bg-yellow-100"
-                          }`}
-                        >
-                          <AlertTriangle
-                            size={22}
-                            className="text-yellow-500"
-                          />
-                        </div>
-                        <p className="text-base">
-                          Pastikan Anda mengunduh file dalam format{" "}
-                          <strong>JSON</strong>. Format HTML tidak akan
-                          berfungsi dengan aplikasi ini.
-                        </p>
+                      <div className="flex-1">
+                        <h3 className="text-2xl font-bold mb-4 flex items-center">
+                          <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-orange-500">
+                            Unduh Data Anda
+                          </span>
+                        </h3>
                       </div>
                     </div>
+                    <div
+                      className={`p-6 rounded-xl mb-6 md:ml-20 transform transition-all duration-300 ${
+                        darkMode
+                          ? "bg-gray-900/60 hover:bg-gray-900/80 hover:shadow-md"
+                          : "bg-gray-50 hover:bg-white hover:shadow-md"
+                      }`}
+                    >
+                      <ol
+                        className={`list-decimal list-inside space-y-3 ${
+                          darkMode ? "text-gray-300" : "text-gray-600"
+                        }`}
+                      >
+                        <li className="pb-2">
+                          Setelah menerima notifikasi, buka kembali menu{" "}
+                          <strong>Unduh informasi Anda</strong>
+                        </li>
+                        <li className="pb-2">
+                          Anda akan melihat file ZIP yang siap diunduh
+                        </li>
+                        <li className="pb-2">
+                          Klik tombol <strong>Unduh</strong>
+                        </li>
+                        <li>File akan tersimpan di perangkat Anda</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div
+                    className={`flex md:ml-20 items-start gap-4 p-6 rounded-xl transform transition-all duration-300 ${
+                      darkMode
+                        ? "bg-yellow-900/30 border border-yellow-800/40 hover:bg-yellow-900/40 hover:border-yellow-700/50"
+                        : "bg-yellow-50 border border-yellow-100 hover:bg-yellow-100/80 hover:border-yellow-200"
+                    }`}
+                  >
+                    <div
+                      className={`flex-shrink-0 p-3 rounded-full ${
+                        darkMode ? "bg-yellow-900/60" : "bg-yellow-100"
+                      }`}
+                    >
+                      <AlertTriangle size={22} className="text-yellow-500" />
+                    </div>
+                    <p className="text-base">
+                      Pastikan Anda mengunduh file dalam format{" "}
+                      <strong>JSON</strong>. Format HTML tidak akan berfungsi
+                      dengan aplikasi ini.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -376,70 +375,72 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                   className={`absolute top-0 left-0 w-2 h-full bg-gradient-to-b ${stepIconColors[2]}`}
                 ></div>
                 <div className="p-8">
-                  <div className="flex flex-col md:flex-row md:items-start gap-6">
-                    <div className="flex-shrink-0">
-                      <div
-                        className={`w-16 h-16 rounded-2xl flex items-center justify-center text-white font-bold relative overflow-hidden group-hover:scale-105 transition-transform duration-300`}
-                      >
+                  <div className="flex flex-col">
+                    <div className="flex md:items-start gap-6">
+                      <div className="flex-shrink-0">
                         <div
-                          className={`absolute inset-0 bg-gradient-to-br ${stepIconColors[2]}`}
-                        ></div>
-                        <div className="relative flex flex-col items-center">
-                          <span className="text-2xl">3</span>
+                          className={`w-16 h-16 rounded-2xl flex items-center justify-center text-white font-bold relative overflow-hidden group-hover:scale-105 transition-transform duration-300`}
+                        >
+                          <div
+                            className={`absolute inset-0 bg-gradient-to-br ${stepIconColors[2]}`}
+                          ></div>
+                          <div className="relative flex flex-col items-center">
+                            <span className="text-2xl">3</span>
+                          </div>
                         </div>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-2xl font-bold mb-4 flex items-center">
+                          <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500">
+                            Upload File ke Impostorgram
+                          </span>
+                        </h3>
                       </div>
                     </div>
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold mb-4 flex items-center">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500">
-                          Upload File ke Impostorgram
-                        </span>
-                      </h3>
-                      <div
-                        className={`p-6 rounded-xl mb-6 transform transition-all duration-300 ${
-                          darkMode
-                            ? "bg-gray-900/60 hover:bg-gray-900/80 hover:shadow-md"
-                            : "bg-gray-50 hover:bg-white hover:shadow-md"
+                    <div
+                      className={`p-6 rounded-xl md:ml-20 mb-6 transform transition-all duration-300 ${
+                        darkMode
+                          ? "bg-gray-900/60 hover:bg-gray-900/80 hover:shadow-md"
+                          : "bg-gray-50 hover:bg-white hover:shadow-md"
+                      }`}
+                    >
+                      <ol
+                        className={`list-decimal list-inside space-y-3 ${
+                          darkMode ? "text-gray-300" : "text-gray-600"
                         }`}
                       >
-                        <ol
-                          className={`list-decimal list-inside space-y-3 ${
-                            darkMode ? "text-gray-300" : "text-gray-600"
-                          }`}
-                        >
-                          <li className="pb-2">
-                            Kembali ke halaman utama Impostorgram
-                          </li>
-                          <li className="pb-2">
-                            Klik area upload atau drag-and-drop file ZIP
-                            Instagram Anda
-                          </li>
-                          <li className="pb-2">
-                            Klik tombol <strong>Analisis Sekarang</strong>
-                          </li>
-                          <li>Tunggu proses analisis selesai</li>
-                        </ol>
-                      </div>
+                        <li className="pb-2">
+                          Kembali ke halaman utama Impostorgram
+                        </li>
+                        <li className="pb-2">
+                          Klik area upload atau drag-and-drop file ZIP Instagram
+                          Anda
+                        </li>
+                        <li className="pb-2">
+                          Klik tombol <strong>Analisis Sekarang</strong>
+                        </li>
+                        <li>Tunggu proses analisis selesai</li>
+                      </ol>
+                    </div>
+                    <div
+                      className={`flex items-start gap-4 md:ml-20 p-6 rounded-xl transform transition-all duration-300 ${
+                        darkMode
+                          ? "bg-green-900/30 border border-green-800/40 hover:bg-green-900/40 hover:border-green-700/50"
+                          : "bg-green-50 border border-green-100 hover:bg-green-100/80 hover:border-green-200"
+                      }`}
+                    >
                       <div
-                        className={`flex items-start gap-4 p-6 rounded-xl transform transition-all duration-300 ${
-                          darkMode
-                            ? "bg-green-900/30 border border-green-800/40 hover:bg-green-900/40 hover:border-green-700/50"
-                            : "bg-green-50 border border-green-100 hover:bg-green-100/80 hover:border-green-200"
+                        className={`flex-shrink-0 p-3 rounded-full ${
+                          darkMode ? "bg-green-900/60" : "bg-green-100"
                         }`}
                       >
-                        <div
-                          className={`flex-shrink-0 p-3 rounded-full ${
-                            darkMode ? "bg-green-900/60" : "bg-green-100"
-                          }`}
-                        >
-                          <Shield size={22} className="text-green-500" />
-                        </div>
-                        <p className="text-base">
-                          Data Anda 100% aman. Semua proses analisis dilakukan
-                          di perangkat Anda dan tidak ada data yang dikirim ke
-                          server.
-                        </p>
+                        <Shield size={22} className="text-green-500" />
                       </div>
+                      <p className="text-base">
+                        Data Anda 100% aman. Semua proses analisis dilakukan di
+                        perangkat Anda dan tidak ada data yang dikirim ke
+                        server.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -521,7 +522,7 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                       {
                         question: "Informasi apa yang bisa saya lihat?",
                         answer:
-                          "Anda bisa melihat daftar akun yang Anda follow tetapi tidak follow balik Anda (tidak followback).",
+                          "Anda bisa melihat daftar akun yang Anda follow tetapi tidak nge-follow balik Anda (tidak followback).",
                         icon: (
                           <AlertTriangle
                             size={20}

@@ -54,9 +54,10 @@ export default function Header({
         <div className="flex justify-between items-center">
           {/* Logo */}
           <motion.div
-            className="text-2xl font-bold flex items-center"
+            className="text-2xl font-bold flex items-center cursor-pointer"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            onClick={() => handlePageChange("home")}
           >
             <motion.div
               initial={{ rotate: 0 }}
