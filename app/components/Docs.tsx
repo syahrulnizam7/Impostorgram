@@ -154,9 +154,9 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                             <Image
                               src="/images/step3.jpg"
                               alt="Pilih Pusat Akun"
-                              width={200}
+                              width={270}
                               height={150}
-                              className="rounded-lg"
+                              className="rounded-lg  lg:w-96"
                             />
                           </div>
                         </li>
@@ -166,9 +166,9 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                             <Image
                               src="/images/step4.jpg"
                               alt="Pilih Pusat Akun"
-                              width={200}
+                              width={270}
                               height={150}
-                              className="rounded-lg"
+                              className="rounded-lg lg:w-96"
                             />
                           </div>
                         </li>
@@ -178,9 +178,9 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                             <Image
                               src="/images/step5.jpg"
                               alt="Pilih Pusat Akun"
-                              width={200}
+                              width={270}
                               height={150}
-                              className="rounded-lg"
+                              className="rounded-lg lg:w-96"
                             />
                           </div>
                         </li>
@@ -191,9 +191,9 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                             <Image
                               src="/images/step6.jpg"
                               alt="Pilih Pusat Akun"
-                              width={200}
+                              width={270}
                               height={150}
-                              className="rounded-lg"
+                              className="rounded-lg lg:w-96"
                             />
                           </div>
                         </li>
@@ -207,16 +207,16 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                             <Image
                               src="/images/step8-1.jpg"
                               alt="Pilih Pusat Akun"
-                              width={200}
+                              width={270}
                               height={150}
-                              className="rounded-lg"
+                              className="rounded-lg lg:w-96"
                             />
                             <Image
                               src="/images/step8-2.jpg"
                               alt="Pilih Pusat Akun"
-                              width={200}
+                              width={270}
                               height={150}
-                              className="rounded-lg"
+                              className="rounded-lg lg:w-96"
                             />
                           </div>
                         </li>
@@ -226,9 +226,9 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                             <Image
                               src="/images/step9.jpg"
                               alt="Pilih Pusat Akun"
-                              width={200}
+                              width={270}
                               height={150}
-                              className="rounded-lg"
+                              className="rounded-lg lg:w-96"
                             />
                           </div>
                         </li>
@@ -240,9 +240,9 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                             <Image
                               src="/images/step10.jpg"
                               alt="Pilih Pusat Akun"
-                              width={200}
+                              width={270}
                               height={150}
-                              className="rounded-lg"
+                              className="rounded-lg lg:w-96"
                             />
                           </div>
                         </li>

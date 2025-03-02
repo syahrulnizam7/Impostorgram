@@ -155,7 +155,7 @@ export default function Home({
               darkMode ? "text-blue-400" : "text-blue-600"
             }`}
           >
-            Instagram Analyzer
+            Analisis Instagram
           </span>
         </motion.div>
 
@@ -186,7 +186,7 @@ export default function Home({
 
         <motion.div
           variants={itemVariants}
-          className="mt-8 flex flex-wrap justify-center gap-4"
+          className="mt-8 flex flex-wrap justify-center gap-3 lg:gap-4"
         >
           {[
             { icon: <Shield size={20} />, text: "100% Aman & Privat" },
@@ -197,7 +197,7 @@ export default function Home({
               key={index}
               whileHover={{ y: -5, scale: 1.05 }}
               whileTap={{ y: 0, scale: 0.95 }}
-              className={`flex items-center px-5 py-2.5 rounded-full shadow-sm ${
+              className={`flex items-center text-sm lg:text-base px-2 py-1.5 lg:px-5 lg:py-2.5 rounded-full shadow-sm ${
                 darkMode
                   ? "bg-gray-800/80 border border-gray-700 hover:bg-gray-700/80"
                   : "bg-white/80 border border-gray-100 hover:bg-gray-50"
