@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 Impostorgram
 
-## Getting Started
+Impostorgram adalah sebuah web app yang memungkinkan pengguna untuk menganalisis daftar pengikut dan menemukan siapa yang tidak mengikuti balik di Instagram. Dibangun dengan teknologi modern untuk performa optimal dan pengalaman pengguna yang mulus.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Fitur Utama
+- 🔍 **Analisis Akurat** Cek siapa yang tidak followback dengan cepat.
+- 🔒 **Privasi Terjaga** Data tidak disimpan di server, semua diproses secara lokal.
+- ⚡ **Performa Cepat** Menggunakan Next.js untuk kecepatan optimal.
+- 📂 **Dukungan File ZIP** Unggah file ZIP Instagram untuk analisis.
+- 🎨 **UI Modern** dengan Tailwind CSS dan alpine JS.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Teknologi yang Digunakan
+- **Next.js**: Framework React
+- **TypeScript**: Interaktivitas front-end.
+- **Tailwind CSS**: Styling modern dan responsif.
+- **Framer Motion**: Animasi dan transisi UI yang lebih halus.
+- **Lucide React**: Ikon modern dan ringan untuk tampilan lebih menarik
+- **JSZip**: Memproses file ZIP tanpa perlu backend tambahan.
+- **Vercel**: Hosting dan deployment.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Tangkapan Layar
+![ss-impostorgram](https://github.com/user-attachments/assets/0852e26d-7ca2-41e3-be9d-4116a8e06f9d)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📫 Kontak
+- **Email**: syhrulnizm7@gmail.com
+- **Instagram**: [@alangkun](https://instagram.com/alangkun)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+Terima kasih telah mengunjungi Impostorgram! 🚀✨
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
