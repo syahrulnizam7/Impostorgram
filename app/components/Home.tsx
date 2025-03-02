@@ -10,7 +10,6 @@ import {
   Instagram,
   ChevronRight,
   Sparkles,
-  UserCheck,
   UserX,
 } from "lucide-react";
 
