@@ -14,14 +14,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Impostorgram | Analisis Follower Instagram",
+  title: "Impostorgram | Cek Siapa yang Tidak Followback",
   description:
     "Cek siapa yang tidak followback di Instagram dengan Impostorgram!",
   keywords: ["Instagram", "Unfollow Checker", "Followback", "Impostorgram"],
   authors: [{ name: "Nama Kamu" }],
   openGraph: {
     type: "website",
-    url: "https://impostorgram.vercel.app",
+    url: "https://impostorgram.my.id",
     title: "Impostorgram | Analisis Follower Instagram",
     description:
       "Cek siapa yang tidak followback di Instagram dengan Impostorgram!",
