@@ -6,6 +6,7 @@ import {
   ArrowLeft,
   Zap,
   Users,
+  FileText,
 } from "lucide-react";
 import Image from "next/image";
 
@@ -518,6 +519,22 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                         ),
                         gradient: "from-orange-400 to-red-400",
                       },
+                      {
+                        question:
+                          "Kenapa harus pakai file ZIP, nggak bisa pakai username?",
+                        answer:
+                          "Instagram tidak membagikan data followers dan following langsung dari username karena kebijakan privasi. Dengan file ZIP dari Instagram, datanya resmi, akurat, dan aman tanpa perlu akses ke akun Anda.",
+                        icon: (
+                          <FileText
+                            size={20}
+                            className={
+                              darkMode ? "text-cyan-400" : "text-cyan-500"
+                            }
+                          />
+                        ),
+                        gradient: "from-cyan-400 to-teal-400",
+                      },
+
                       {
                         question: "Informasi apa yang bisa saya lihat?",
                         answer:
