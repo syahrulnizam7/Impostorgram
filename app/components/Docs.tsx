@@ -267,8 +267,8 @@ export default function Docs({ darkMode, setCurrentPage }: DocsProps) {
                       </div>
                       <p className="text-sm md:text-base">
                         Instagram akan memproses permintaan Anda dalam beberapa
-                        hari. Anda akan mendapatkan notifikasi dan email saat
-                        data siap untuk diunduh.
+                        hari (kalau saya sih sehari 😁). Anda akan mendapatkan
+                        notifikasi dan email saat data siap untuk diunduh.
                       </p>
                     </div>
                   </div>
