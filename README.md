@@ -9,8 +9,7 @@ Impostorgram adalah sebuah web app yang memungkinkan pengguna untuk menganalisis
 - 🔒 **Privasi Terjaga** Data tidak disimpan di server, semua diproses secara lokal.
 - ⚡ **Performa Cepat** Menggunakan Next.js untuk kecepatan optimal.
 - 📂 **Dukungan File ZIP** Unggah file ZIP Instagram untuk analisis.
-- 🎨 **UI Modern** dengan Tailwind CSS dan alpine JS.
-
+- 🎨 **UI Modern** dengan Tailwind framermotion untuk animasi
 ---
 
 ## 🛠️ Teknologi yang Digunakan
