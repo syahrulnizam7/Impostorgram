@@ -1,4 +1,4 @@
-# 🎬 Impostorgram
+# Impostorgram
 
 Impostorgram adalah sebuah web app yang memungkinkan pengguna untuk menganalisis daftar pengikut dan menemukan siapa yang tidak mengikuti balik di Instagram. Dibangun dengan teknologi modern untuk performa optimal dan pengalaman pengguna yang mulus.
 
