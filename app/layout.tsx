@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "Cek siapa yang tidak followback di Instagram dengan Impostorgram!",
   keywords: ["Instagram", "Unfollow Checker", "Followback", "Impostorgram"],
-  authors: [{ name: "Nama Kamu" }],
+  authors: [{ name: "Alangkun" }],
   openGraph: {
     type: "website",
     url: "https://impostorgram.my.id",
